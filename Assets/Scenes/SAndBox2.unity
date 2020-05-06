@@ -69250,6 +69250,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2572559904036234934, guid: 4973abb8f51602c47b95213455960ec8,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: a51d06878846b5343a4f05a249c15c0a,
+        type: 2}
     - target: {fileID: 3067163780820074495, guid: 4973abb8f51602c47b95213455960ec8,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -95974,6 +95980,11 @@ PrefabInstance:
       propertyPath: health
       value: 
       objectReference: {fileID: 150522908}
+    - target: {fileID: 55818405344982694, guid: 9785558fda13b2d498035dfb62d33052,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1376472337775152866, guid: 9785558fda13b2d498035dfb62d33052,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -96013,6 +96024,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: '||'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606539809416026532, guid: 9785558fda13b2d498035dfb62d33052,
+        type: 3}
+      propertyPath: animationTriggers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606539809416026532, guid: 9785558fda13b2d498035dfb62d33052,
+        type: 3}
+      propertyPath: animationTriggers.Array.data[0]
+      value: Unarmed-Attack-L1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606539809416026532, guid: 9785558fda13b2d498035dfb62d33052,
+        type: 3}
+      propertyPath: animationTriggers.Array.data[1]
+      value: Unarmed-Attack-L2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606539809416026532, guid: 9785558fda13b2d498035dfb62d33052,
+        type: 3}
+      propertyPath: animationTriggers.Array.data[2]
+      value: Unarmed-Attack-L3
       objectReference: {fileID: 0}
     - target: {fileID: 2628162750084573340, guid: 9785558fda13b2d498035dfb62d33052,
         type: 3}
@@ -96180,13 +96211,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Damage Text
       objectReference: {fileID: 0}
+    - target: {fileID: 8090764349160234546, guid: 9785558fda13b2d498035dfb62d33052,
+        type: 3}
+      propertyPath: animationTriggers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8095328325345039608, guid: 9785558fda13b2d498035dfb62d33052,
         type: 3}
       propertyPath: effectPrefab
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5899693803343488589, guid: 9785558fda13b2d498035dfb62d33052, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9785558fda13b2d498035dfb62d33052, type: 3}
 --- !u!1001 &7273875402781670586
 PrefabInstance:

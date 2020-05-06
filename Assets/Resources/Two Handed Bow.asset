@@ -9,16 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85fb83e41484cdb489b654bbea3ae782, type: 3}
+  m_Script: {fileID: 11500000, guid: b12b46750663a4b4e8ac68e18daf86cf, type: 3}
   m_Name: Two Handed Bow
   m_EditorClassIdentifier: 
   equipedPrefab: {fileID: 502100088979269939, guid: cc2383fa07e2b47409c52a5152ffc406,
     type: 3}
   animatorOverride: {fileID: 22100000, guid: f4a1c1dd4cd1fd346b993b9e0eb5ff01, type: 2}
-  isRightHanded: 0
+  isRightHanded: 1
   projectile: {fileID: 6013679927831975839, guid: 7e85cc03d21c6eb4ab6d9e2f4dd6e932,
     type: 3}
-  weaponRange: 20
-  attackSpeed: 0.5
-  weaponDamage: 2
+  weaponRange: 2
+  attackSpeed: 1
+  weaponDamage: 1
   weaponPercentageBuff: 0

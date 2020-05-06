@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RPG.Atributes;
+using UnityEngine.Events;
 
 namespace RPG.Combat
 {
@@ -11,6 +12,7 @@ namespace RPG.Combat
         [SerializeField] ProjectileMover effectPrefab = null;
         [SerializeField] bool isHooming = false;
         [SerializeField] float maxLifeTime = 0.0f;
+        [SerializeField] UnityEvent onHit;
 
         Health target = null;
         GameObject instigator = null;
@@ -46,6 +48,7 @@ namespace RPG.Combat
 
         private void OnTriggerEnter(Collider other)
         {
+            onHit.Invoke();
             if (other.GetComponent<Health>() != target) return;
             target.TakeDamage(instigator, damage);
             Destroy(gameObject);
