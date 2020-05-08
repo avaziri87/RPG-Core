@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b12b46750663a4b4e8ac68e18daf86cf, type: 3}
   m_Name: Two Handed Bow
   m_EditorClassIdentifier: 
-  equipedPrefab: {fileID: 502100088979269939, guid: cc2383fa07e2b47409c52a5152ffc406,
+  equipedPrefab: {fileID: 8025193254789529202, guid: cc2383fa07e2b47409c52a5152ffc406,
     type: 3}
   animatorOverride: {fileID: 22100000, guid: f4a1c1dd4cd1fd346b993b9e0eb5ff01, type: 2}
   isRightHanded: 1
