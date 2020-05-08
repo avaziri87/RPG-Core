@@ -18,9 +18,7 @@ namespace RPG.Control
         [SerializeField] float dwellTime = 0.0f;
         [SerializeField] float waypointTolerance = 0.0f;
         [Range(0, 1)]
-        [SerializeField] float maxPatrolSpeedFraction = 0.0f;
-        [Range(0, 1)]
-        [SerializeField] float minPatrolSpeedFraction = 0.0f;
+        [SerializeField] float patrolSpeedFraction = 0.0f;
 
         Fighter fighter;
         GameObject player;
@@ -73,8 +71,7 @@ namespace RPG.Control
         private void PatrolBehaviour()
         {
             Vector3 nextPosition = guardPosition.value;
-
-            if(patrolpath != null)
+            if (patrolpath != null)
             {
                 //Debug.Log("patrolpath is not null");
                 if(AtWaypoint())
@@ -86,11 +83,8 @@ namespace RPG.Control
             }
             if(timeSinceArrivedAtWaypoint > dwellTime)
             {
-                float patrolSpeedFraction = UnityEngine.Random.Range(minPatrolSpeedFraction, maxPatrolSpeedFraction);
                 mover.MoveTo(nextPosition, patrolSpeedFraction);
             }
-            GetComponent<Animator>().ResetTrigger("Suspicion");
-            GetComponent<Animator>().SetTrigger("Stop Suspicion");
         }
         private bool AtWaypoint()
         {
@@ -108,10 +102,6 @@ namespace RPG.Control
         private void SuspicionBehaviour()
         {
             GetComponent<ActionScheduler>().CancelAction();
-            if (GetComponent<NavMeshAgent>().velocity == Vector3.zero)
-            {
-                GetComponent<Animator>().SetTrigger("Suspicion");
-            }
         }
 
         private void AttackBehaviour()

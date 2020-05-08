@@ -8,5 +8,9 @@ namespace RPG.Stats
     {
         Player,
         BaseEnemy,
+        GoblinMob,
+        GoblinWarrior,
+        GoblinShaman,
+        GoblinWarchief,
     }
 }
