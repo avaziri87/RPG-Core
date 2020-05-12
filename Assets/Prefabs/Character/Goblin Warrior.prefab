@@ -1,62 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7468362942158745565
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 3043637510332534461}
-    m_Modifications:
-    - target: {fileID: 112422, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_Name
-      value: Character_Goblin_Warrior_Male
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 407186, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8cd752dc36d412b4bba2efd06775153a, type: 3}
 --- !u!1001 &8871015194626509440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64,6 +7,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1270333050831248194, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271756939196690226, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271800133493012114, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_Name
+      value: Character_Goblin_Warrior_Male
+      objectReference: {fileID: 0}
+    - target: {fileID: 1276004675381470762, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351546353136562864, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2248889907175888219, guid: 087629baad6c71c45babfc92516a7b54,
         type: 3}
       propertyPath: characterClass
@@ -129,17 +97,43 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7743111469268682983, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: patrolSpeedFraction
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7743111469268682983, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: shoutDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
         type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: 576f100b56bdd1e46b9e66f49c778371,
+      objectReference: {fileID: 11400000, guid: 36754a173be42994cbdd2b90dcc63f60,
         type: 2}
+    - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 7689570330428840134}
+    - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 7685670543743586882}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 087629baad6c71c45babfc92516a7b54, type: 3}
---- !u!4 &3043637510332534461 stripped
+--- !u!4 &7689570330428840134 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5845955308310135869, guid: 087629baad6c71c45babfc92516a7b54,
+  m_CorrespondingSourceObject: {fileID: 1273104897953649222, guid: 087629baad6c71c45babfc92516a7b54,
+    type: 3}
+  m_PrefabInstance: {fileID: 8871015194626509440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7685670543743586882 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1275875432776554690, guid: 087629baad6c71c45babfc92516a7b54,
     type: 3}
   m_PrefabInstance: {fileID: 8871015194626509440}
   m_PrefabAsset: {fileID: 0}

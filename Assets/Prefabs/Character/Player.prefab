@@ -105,7 +105,7 @@ PrefabInstance:
     - target: {fileID: 132332864594154823, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: curorMappings.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 132332864594154823, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
@@ -152,6 +152,16 @@ PrefabInstance:
       propertyPath: curorMappings.Array.data[4].texture
       value: 
       objectReference: {fileID: 2800000, guid: f8c873f1e53e83f4aabf342d6be1dfc3, type: 3}
+    - target: {fileID: 132332864594154823, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: curorMappings.Array.data[5].type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 132332864594154823, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: curorMappings.Array.data[5].texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 96d4bfdb0d6d8c042bf8fccf6524d239, type: 3}
     - target: {fileID: 1319909986302475872, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: m_Name
@@ -279,12 +289,22 @@ PrefabInstance:
     - target: {fileID: 5886744013989726432, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5886744013989726432, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964179050845412474, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968981691615349954, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6648979042068344587, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
@@ -296,6 +316,12 @@ PrefabInstance:
       propertyPath: ShouldBuff
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6648979042068344587, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: leveUpParticleEffect
+      value: 
+      objectReference: {fileID: 5278252640662563695, guid: 08d0fe193c18c574980cc6b825e6be37,
+        type: 3}
     - target: {fileID: 8485562941581741300, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: uniqueIdentifier

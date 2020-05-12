@@ -1,78 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1514076438169026221
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 7148014034988422474}
-    m_Modifications:
-    - target: {fileID: 114438, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_Name
-      value: Character_Goblin_Male
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404400, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9520566, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2ef59bc5d753ebe4490b708befe65999, type: 3}
---- !u!4 &1514076438169215257 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 466868, guid: 2ef59bc5d753ebe4490b708befe65999,
-    type: 3}
-  m_PrefabInstance: {fileID: 1514076438169026221}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1514076438169193817 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 488436, guid: 2ef59bc5d753ebe4490b708befe65999,
-    type: 3}
-  m_PrefabInstance: {fileID: 1514076438169026221}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3608466894532596087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80,6 +7,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1270218983765419110, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1270333050831248194, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271800133493012114, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_Name
+      value: Character_Goblin_Male
+      objectReference: {fileID: 0}
+    - target: {fileID: 1276004675381470762, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351546353136562864, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2248889907175888219, guid: 087629baad6c71c45babfc92516a7b54,
         type: 3}
       propertyPath: characterClass
@@ -152,19 +104,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
         type: 3}
-      propertyPath: leftHandTransform
-      value: 
-      objectReference: {fileID: 1514076438169215257}
-    - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
-        type: 3}
       propertyPath: rightHandTransform
       value: 
-      objectReference: {fileID: 1514076438169193817}
+      objectReference: {fileID: 2569031422116628917}
+    - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 2574127890036228913}
+    - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: e6ecd604269a5ce4d819c69f3e50931e,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 087629baad6c71c45babfc92516a7b54, type: 3}
---- !u!4 &7148014034988422474 stripped
+--- !u!4 &2574127890036228913 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5845955308310135869, guid: 087629baad6c71c45babfc92516a7b54,
+  m_CorrespondingSourceObject: {fileID: 1273104897953649222, guid: 087629baad6c71c45babfc92516a7b54,
+    type: 3}
+  m_PrefabInstance: {fileID: 3608466894532596087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2569031422116628917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1275875432776554690, guid: 087629baad6c71c45babfc92516a7b54,
     type: 3}
   m_PrefabInstance: {fileID: 3608466894532596087}
   m_PrefabAsset: {fileID: 0}

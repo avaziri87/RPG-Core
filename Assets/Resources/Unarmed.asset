@@ -18,5 +18,5 @@ MonoBehaviour:
   projectile: {fileID: 0}
   weaponRange: 2
   attackSpeed: 1
-  weaponDamage: 1
+  weaponDamage: 0
   weaponPercentageBuff: 0

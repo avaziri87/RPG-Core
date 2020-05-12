@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1b4f27066d34147a81bfa6a2a77367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypointGizmoRadius: 0
+  waypointGizmoRadius: 0.3
   isRandom: 1
 --- !u!1 &5312925607595593226
 GameObject:

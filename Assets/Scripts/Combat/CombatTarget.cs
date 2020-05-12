@@ -16,6 +16,10 @@ namespace RPG.Combat
 
         public bool HandleRaycast(PlayerController callingControler)
         {
+            if (!callingControler.GetComponent<Fighter>().CanAttack(gameObject))
+            {
+                return false;
+            }
             if (Input.GetMouseButtonDown(0))
             {
                 callingControler.destinationNode.TurnOff();

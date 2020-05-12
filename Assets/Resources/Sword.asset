@@ -18,6 +18,6 @@ MonoBehaviour:
   isRightHanded: 1
   projectile: {fileID: 0}
   weaponRange: 2
-  attackSpeed: 1
-  weaponDamage: 1
-  weaponPercentageBuff: 0
+  attackSpeed: 1.5
+  weaponDamage: 5
+  weaponPercentageBuff: 30

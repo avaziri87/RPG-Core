@@ -124,7 +124,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 9000000, guid: b69174d668ba02d44b14a084b217670a, type: 3}
+      objectReference: {fileID: 9000000, guid: b6ef2f4d0154b2747860a3332fa05f97, type: 3}
     - target: {fileID: 1319909986302475872, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: m_Name
@@ -235,6 +235,16 @@ PrefabInstance:
       propertyPath: minPatrolSpeedFraction
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 2883795360167064247, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: aggroCoolDown
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883795360167064247, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: shoutDistance
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3950765724164518533, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: m_Enabled
@@ -272,18 +282,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5702287382268398164, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702287382268398164, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
       propertyPath: healthPoints
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702287382268398164, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702287382268398164, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702287382268398164, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 7743111469268682983}
+    - target: {fileID: 5702287382268398164, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Aggravate
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702287382268398164, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5886744013989726432, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5886744013989726432, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964179050845412474, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7108888458267738073, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3, type: 3}
@@ -300,6 +345,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4859456851746372176}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7743111469268682983 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2883795360167064247, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4859456851746372176}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5845955308310135856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827e8dd797d78114ba0b9dfb44e9f5f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &888012230092845060 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5702287382268398164, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,

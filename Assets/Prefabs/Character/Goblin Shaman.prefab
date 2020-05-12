@@ -1,62 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &103242550321629785
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 570755257486904068}
-    m_Modifications:
-    - target: {fileID: 194332, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_Name
-      value: Character_Goblin_Shaman
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 410742, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 70ad07d06832dba42a3bb244ab822fd1, type: 3}
 --- !u!1001 &6254017194419752761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64,6 +7,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1270333050831248194, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1270392922271934956, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271800133493012114, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_Name
+      value: Character_Goblin_Shaman
+      objectReference: {fileID: 0}
+    - target: {fileID: 1276004675381470762, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351546353136562864, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2248889907175888219, guid: 087629baad6c71c45babfc92516a7b54,
         type: 3}
       propertyPath: characterClass
@@ -129,11 +97,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7743111469268682983, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: patrolSpeedFraction
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: f629c66d3ada56e4bbf2ae2bbab457a9,
+        type: 2}
+    - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 5143182964683005311}
+    - target: {fileID: 8476814898204199125, guid: 087629baad6c71c45babfc92516a7b54,
+        type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 5151672065657952251}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 087629baad6c71c45babfc92516a7b54, type: 3}
---- !u!4 &570755257486904068 stripped
+--- !u!4 &5143182964683005311 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5845955308310135869, guid: 087629baad6c71c45babfc92516a7b54,
+  m_CorrespondingSourceObject: {fileID: 1273104897953649222, guid: 087629baad6c71c45babfc92516a7b54,
+    type: 3}
+  m_PrefabInstance: {fileID: 6254017194419752761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5151672065657952251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1275875432776554690, guid: 087629baad6c71c45babfc92516a7b54,
     type: 3}
   m_PrefabInstance: {fileID: 6254017194419752761}
   m_PrefabAsset: {fileID: 0}

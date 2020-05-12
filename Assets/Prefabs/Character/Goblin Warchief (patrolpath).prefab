@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8961350325067937725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1643672484896507158}
+  m_Layer: 0
+  m_Name: Goblin Warchief (patrolpath)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1643672484896507158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8961350325067937725}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2384212737931809211}
+  - {fileID: 3468120058356638332}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &888730304750885838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1643672484896507158}
+    m_Modifications:
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301562961227260236, guid: 0547088313eab214696017588f713b69,
+        type: 3}
+      propertyPath: m_Name
+      value: Patrolpath
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0547088313eab214696017588f713b69, type: 3}
+--- !u!4 &3468120058356638332 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4356207145558751666, guid: 0547088313eab214696017588f713b69,
+    type: 3}
+  m_PrefabInstance: {fileID: 888730304750885838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1276266729884788426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2153655571077905668, guid: 0547088313eab214696017588f713b69,
+    type: 3}
+  m_PrefabInstance: {fileID: 888730304750885838}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1b4f27066d34147a81bfa6a2a77367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7381166725476830567
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1643672484896507158}
+    m_Modifications:
+    - target: {fileID: 2371925269253959237, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: d54d2a50-835e-487f-ac25-8bc35654e571
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210449, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_Name
+      value: Goblin Warchief
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019952934778572806, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+        type: 3}
+      propertyPath: patrolpath
+      value: 
+      objectReference: {fileID: 1276266729884788426}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 665db808f2804dd4d9c0bf0756d8dcee, type: 3}
+--- !u!4 &2384212737931809211 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5150218971011210460, guid: 665db808f2804dd4d9c0bf0756d8dcee,
+    type: 3}
+  m_PrefabInstance: {fileID: 7381166725476830567}
+  m_PrefabAsset: {fileID: 0}

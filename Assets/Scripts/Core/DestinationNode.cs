@@ -7,6 +7,7 @@ namespace RPG.Core
 {
     public class DestinationNode : MonoBehaviour
     {
+        [SerializeField] GameObject visual;
         PlayerController Player = null;
         float turnOffDistance = 2;
 
@@ -23,12 +24,12 @@ namespace RPG.Core
         }
         public void TurnOn(Vector3 Pos)
         {
-            GetComponent<MeshRenderer>().enabled = true;
+            visual.SetActive(true);
             transform.position = Pos;
         }
         public void TurnOff()
         {
-            GetComponent<MeshRenderer>().enabled = false;
+            visual.SetActive(false);
         }
     }
 }

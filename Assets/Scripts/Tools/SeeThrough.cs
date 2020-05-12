@@ -6,19 +6,20 @@ namespace RPG.Tools
 {
     public class SeeThrough : MonoBehaviour
     {
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerStay(Collider other)
         {
-            if(other.tag == "Player")
+            
+            if (other.tag == "SeeThrough")
             {
-                GetComponent<MeshRenderer>().enabled = false;
+                other.GetComponent<MeshRenderer>().enabled = false;
             }
         }
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.tag == "Player")
+            if (other.tag == "SeeThrough")
             {
-                GetComponent<MeshRenderer>().enabled = true;
+                other.GetComponent<MeshRenderer>().enabled = true;
             }
         }
     }
