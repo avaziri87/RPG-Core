@@ -143,6 +143,11 @@ PrefabInstance:
       propertyPath: weapon
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5611404125400564109, guid: d4db98f31eb268841b46ee3c89286fe2,
+        type: 3}
+      propertyPath: healthRestore
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7300772776245701909, guid: d4db98f31eb268841b46ee3c89286fe2,
         type: 3}
       propertyPath: m_IsActive
