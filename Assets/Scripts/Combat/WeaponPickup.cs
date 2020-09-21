@@ -12,7 +12,6 @@ namespace RPG.Combat
         [SerializeField] WeaponConfig weapon;
         [SerializeField] float respawnTime = 0.0f;
         [SerializeField] float healthRestore = 0.0f;
-
         private void OnTriggerEnter(Collider other)
         {
             if(other.gameObject.tag == "Player")
@@ -31,25 +30,34 @@ namespace RPG.Combat
             if(healthRestore >0)
             {
                 subject.GetComponent<Health>().Heal(healthRestore);
+                DestroyPickup();
             }
         }
         private IEnumerator Hide(float seconds)
         {
+            Debug.Log("numerator started");
             ShowPickup(false);
+            Debug.Log("wait for " + seconds + " seconds");
             yield return new WaitForSeconds(seconds);
+            Debug.Log("continue");
             ShowPickup(true);
         }
         private void ShowPickup(bool show)
         {
+            Debug.Log("show pickup? " + show);
             GetComponent<BoxCollider>().enabled = show;
             foreach(Transform child in transform)
             {
-                child.gameObject.GetComponent<MeshRenderer>().enabled = show;
+                child.gameObject.SetActive(show);
             }
+        }
+        private void DestroyPickup()
+        {
+            GameObject.Destroy(gameObject);
         }
         public bool HandleRaycast(PlayerController callingControler)
         {
-            if(Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 PickUp(callingControler.gameObject);
             }

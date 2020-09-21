@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4177592641150644213}
   - component: {fileID: 2802483192054796141}
   m_Layer: 0
-  m_Name: Sword Pikcup
+  m_Name: Weapon Pikcup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
