@@ -121,7 +121,7 @@ PrefabInstance:
         type: 3}
       propertyPath: curorMappings.Array.data[0].texture
       value: 
-      objectReference: {fileID: 2800000, guid: 2a2b4775272c890448e1bd6239fdfc84, type: 3}
+      objectReference: {fileID: 2800000, guid: 21628736160fcc9488493401da3ef621, type: 3}
     - target: {fileID: 132332864594154823, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: curorMappings.Array.data[2].texture
@@ -131,7 +131,7 @@ PrefabInstance:
         type: 3}
       propertyPath: curorMappings.Array.data[1].texture
       value: 
-      objectReference: {fileID: 2800000, guid: 8ea795c067613354898068091ffc7130, type: 3}
+      objectReference: {fileID: 2800000, guid: 1e1ecf843f705b34ab304dff88b037c1, type: 3}
     - target: {fileID: 132332864594154823, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: curorMappings.Array.data[3].type
@@ -161,7 +161,7 @@ PrefabInstance:
         type: 3}
       propertyPath: curorMappings.Array.data[5].texture
       value: 
-      objectReference: {fileID: 2800000, guid: 96d4bfdb0d6d8c042bf8fccf6524d239, type: 3}
+      objectReference: {fileID: 2800000, guid: cecad95c851b97f40b105b30b0bfede3, type: 3}
     - target: {fileID: 1319909986302475872, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: m_Name
@@ -325,9 +325,10 @@ PrefabInstance:
     - target: {fileID: 8485562941581741300, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
         type: 3}
       propertyPath: uniqueIdentifier
-      value: player
+      value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5389221000710231149, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3, type: 3}
 --- !u!1 &4342341520201503488 stripped
 GameObject:

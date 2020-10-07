@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 7108888458267738073}
   - component: {fileID: 74760354780231657}
   - component: {fileID: 156317732554309590}
+  - component: {fileID: 5389221000710231149}
   - component: {fileID: 8485562941581741300}
   - component: {fileID: 1319909986302475887}
   - component: {fileID: 1319909986302475873}
@@ -256,7 +257,7 @@ MonoBehaviour:
   destinationNode: {fileID: 0}
   curorMappings: []
   maxNavMeshProjection: 1
-  maxPathLenght: 40
+  raycastRadius: 1
 --- !u!114 &2883795360167064247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,10 +272,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 0
   suspitionTime: 0
+  aggroCoolDown: 0
   patrolpath: {fileID: 0}
   dwellTime: 0
   waypointTolerance: 0
   patrolSpeedFraction: 0
+  shoutDistance: 0
 --- !u!114 &3950765724164518533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,6 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 0
+  maxPathLenght: 40
 --- !u!114 &5702287382268398164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,6 +396,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8452ef42f8a7cd841a3f249105423d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5389221000710231149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319909986302475872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19fc28a888c18ce4a82d521912c49df1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventorySize: 18
 --- !u!114 &8485562941581741300
 MonoBehaviour:
   m_ObjectHideFlags: 0

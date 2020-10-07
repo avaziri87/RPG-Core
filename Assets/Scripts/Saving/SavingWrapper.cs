@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using RPG.Saving;
+using GameDevTV.Saving;
 
 namespace RPG.SceneManagment
 {
@@ -25,11 +25,13 @@ namespace RPG.SceneManagment
         {
             if(Input.GetKeyDown(KeyCode.L))
             {
+                Debug.Log("Loading");
                 Load();
             }
 
             if (Input.GetKeyDown(KeyCode.S))
             {
+                Debug.Log("saving");
                 Save();
             }
 

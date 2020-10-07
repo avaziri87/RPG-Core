@@ -21,7 +21,7 @@ namespace RPG.Combat
 
         const string weaponName = "weapon";
 
-        public Weapon Spawn(Transform rightHandTransform,Transform leftHandTransform, Animator animator)
+        public void Spawn(Transform rightHandTransform,Transform leftHandTransform, Animator animator)
         {
             DestroyOldWeapon(rightHandTransform, leftHandTransform);
             Weapon weapon = null;
@@ -40,8 +40,6 @@ namespace RPG.Combat
             {
                 animator.runtimeAnimatorController = overrideController.runtimeAnimatorController;
             }
-
-            return weapon;
         }
 
         private void DestroyOldWeapon(Transform rightHandTransform, Transform leftHandTransform)
