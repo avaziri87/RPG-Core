@@ -28,7 +28,7 @@ namespace RPG.Dialogue.Editor
         [MenuItem("Window/Dialogue Editor")]
         public static void ShowEditorWindow()
         {
-            GetWindow(typeof(DialogueEditor), false, "Dialogue Editor");
+            GetWindow(typeof(DialogueEditor), false, "RPG Core/Dialogue Editor");
         }
 
         [OnOpenAsset(1)]
