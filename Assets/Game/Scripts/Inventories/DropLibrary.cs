@@ -8,17 +8,25 @@ namespace RPG.Inventories
     [CreateAssetMenu(menuName = ("RPG/Inventory/Drop Library"))]
     public class DropLibrary : ScriptableObject
     {
+        [Tooltip("")]
         [SerializeField] DropConfig[] potentialDrops;
+        [Tooltip("")]
         [SerializeField] float[] dropChancePercentage;
+        [Tooltip("minimun items dropped")]
         [SerializeField] int[] minDrops;
+        [Tooltip("maximun items dropped")]
         [SerializeField] int[] maxDrops;
 
         [System.Serializable]
         class DropConfig
         {
+            [Tooltip("Item to be dropped")]
             public InventoryItem item;
+            [Tooltip("")]
             public float[] relativeChance;
+            [Tooltip("")]
             public int[] minNumber;
+            [Tooltip("")]
             public int[] maxNumber;
             public int GetRandomNumber(int level)
             {

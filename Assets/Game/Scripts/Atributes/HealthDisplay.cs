@@ -7,6 +7,7 @@ namespace RPG.Atributes
 {
     public class HealthDisplay : MonoBehaviour
     {
+        [SerializeField] Slider healthSlider;
         Health health;
         void Awake()
         {
@@ -16,7 +17,7 @@ namespace RPG.Atributes
         // Update is called once per frame
         void Update()
         {
-            GetComponent<Text>().text =string.Format("{0:0}/{1:0}", health.GetHealth(), health.GetMAxHealth());
+            healthSlider.value = health.GetHealth() / health.GetMAxHealth();
         }
     }
 }

@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace RPG.Stats
 {
     public class ExperienceDisplay : MonoBehaviour
     {
-        [SerializeField] Text xpText;
-        [SerializeField] Text lvlText;
+        [SerializeField] Slider xpSlider;
+        [SerializeField] TextMeshProUGUI text;
+
         Experience experience;
         BaseStats baseStats;
         private void Awake()
@@ -18,8 +20,8 @@ namespace RPG.Stats
         }
         void Update()
         {
-            xpText.text = " " + experience.GetXp();
-            lvlText.text = "" + baseStats.GetLevel();
+            text.text = baseStats.GetLevel().ToString();
+            xpSlider.value = experience.GetXp() / baseStats.GetBaseStat(Stat.ExperienceToLevelUp);
         }
     }
 }

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1496e62c8e7aa7c438a4752e78ac1ecb, type: 3}
+  m_Name: Strong Glove
+  m_EditorClassIdentifier: 
+  itemID: 6ebb99d2-ad22-47e1-a8b1-e47e3c0915f4
+  displayName: Srong Glove
+  description: +10% total damage
+  icon: {fileID: 21300000, guid: ea90c3aed2cf5a04dba9183e4e49cc61, type: 3}
+  pickup: {fileID: 4984980312262231729, guid: f5aed688fca406548862ed5be7ab54cc, type: 3}
+  stackable: 0
+  allowedEquipLocation: 7
+  additiveModifiers: []
+  percentageModifiers:
+  - stat: 3
+    value: 10

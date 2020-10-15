@@ -9,17 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1496e62c8e7aa7c438a4752e78ac1ecb, type: 3}
-  m_Name: Armour
+  m_Script: {fileID: 11500000, guid: 38ce73b45d09f454f8c8821bc375bb28, type: 3}
+  m_Name: Scroll of Knowledge
   m_EditorClassIdentifier: 
-  itemID: c8ad8d05-ae5a-45a2-9ced-99bf6441c226
-  displayName: 
-  description: 
-  icon: {fileID: 21300000, guid: c7526916f07114648915d32742890572, type: 3}
+  itemID: 812f6f47-055e-41bb-ab5d-acfd4d067cad
+  displayName: Scroll of Knowledge
+  description: grants 50Xp
+  icon: {fileID: 21300000, guid: 22ebe7a813b8f2043a45fbd46e1dc64b, type: 3}
   pickup: {fileID: 4984980312262231729, guid: f5aed688fca406548862ed5be7ab54cc, type: 3}
   stackable: 1
-  allowedEquipLocation: 2
-  additiveModifiers:
-  - stat: 0
-    value: 20
-  percentageModifiers: []
+  consumable: 1
+  value: 50
+  type: 1

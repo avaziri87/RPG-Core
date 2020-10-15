@@ -12,6 +12,7 @@ namespace RPG.Inventories
         [Tooltip("how far can they items scatter from the dropper")]
         [SerializeField] float scatterDistance = 1;
         [SerializeField] DropLibrary dropLibrary;
+        [Tooltip("how many items are going to be dropped")]
         [SerializeField] int numberOfDrops = 2;
 
         const int attempts = 30;

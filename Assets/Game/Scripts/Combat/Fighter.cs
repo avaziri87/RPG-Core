@@ -118,6 +118,7 @@ namespace RPG.Combat
         {
             if (target == null) return;
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
+            if (gameObject.tag == "Player") Debug.Log("damage is: " + damage);
 
             if (currentWeapon.value != null)
             {

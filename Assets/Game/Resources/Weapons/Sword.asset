@@ -14,7 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 0b01f9c1-e2ee-44d3-a7b0-1994f672cad8
   displayName: Sword
-  description: 
+  description: 'A sword to help you in this journey
+
+    +5 weapon damage
+
+    +30%
+    total damage
+
+'
   icon: {fileID: 21300000, guid: e91fc63fcd9bb1c4abf7ffdc0848a328, type: 3}
   pickup: {fileID: 2179182622493875390, guid: a759418fce979f24d854a2d90b754d34, type: 3}
   stackable: 0

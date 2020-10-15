@@ -14,7 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 257db08f-24f7-4ce4-944d-8b6c066c3e80
   displayName: Simple Bow
-  description: 
+  description: 'A bow to strike your enemies from a distance
+
+    +1.5 weapon damage
+
+    +20%
+    total damage'
   icon: {fileID: 21300000, guid: 37967dc110c38fa438adb4cf1319b92c, type: 3}
   pickup: {fileID: 7351606434290780812, guid: 26dadbf0a14ffb0488d1d0320d6c189b, type: 3}
   stackable: 0
