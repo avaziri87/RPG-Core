@@ -27,7 +27,7 @@ namespace GameDevTV.Inventories
         /// </summary>
         /// <returns>Returns null if the pickup has been collected.</returns>
         public Pickup GetPickup() 
-        { 
+        {
             return GetComponentInChildren<Pickup>();
         }
 
@@ -45,6 +45,7 @@ namespace GameDevTV.Inventories
         {
             var spawnedPickup = item.SpawnPickup(transform.position, number);
             spawnedPickup.transform.SetParent(transform);
+            spawnedPickup.transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
 
         private void DestroyPickup()

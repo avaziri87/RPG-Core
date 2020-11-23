@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ce73b45d09f454f8c8821bc375bb28, type: 3}
+  m_Name: Small Chest
+  m_EditorClassIdentifier: 
+  itemID: 5b597fbe-1d61-4730-b770-e59be36edff0
+  displayName: 
+  description: 
+  icon: {fileID: 0}
+  pickup: {fileID: 1484384570, guid: 7711b60b576170347b8579a81b7bc9a1, type: 3}
+  stackable: 0
+  consumable: 0
+  value: 20
+  type: 3
+  doorName: 

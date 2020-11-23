@@ -48,6 +48,7 @@ namespace RPG.Inventories
         {
             if(!shouldDropRandom(level))
             {
+                Debug.Log("dont drop");
                 yield break;
             }
             for(int i = 0; i <GetRandomNumberOfDrops(level); i++)

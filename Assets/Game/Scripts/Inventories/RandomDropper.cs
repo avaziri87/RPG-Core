@@ -21,8 +21,10 @@ namespace RPG.Inventories
         {
             var baseStats = GetComponent<BaseStats>();
             var drops = dropLibrary.GetRandomDrops(baseStats.GetLevel());
+            //Debug.Log("drops: " + drops);
             foreach(var drop in drops)
             {
+                Debug.Log("Item Dropped: " + drop.item + "Amount Dropped: " + drop.number);
                 DropItem(drop.item, drop.number);                
             }
 

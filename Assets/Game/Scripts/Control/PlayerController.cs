@@ -15,6 +15,7 @@ namespace RPG.Control
     public class PlayerController : MonoBehaviour
     {
         public DestinationNode destinationNode = null;
+        public Door door;
         Health health;
 
         [System.Serializable]
@@ -35,6 +36,10 @@ namespace RPG.Control
         }
         void Update()
         {
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
             CheckSpecialAbilityKeys();
             if (InteractWithUI()) return;
             if (health.IsDead())
@@ -171,6 +176,11 @@ namespace RPG.Control
         private static Ray GetMouseRay()
         {
             return Camera.main.ScreenPointToRay(Input.mousePosition);
+        }
+
+        private void OnTriggerStay(Collider other)
+        {
+            door = other.GetComponent<Door>();
         }
     }
 }

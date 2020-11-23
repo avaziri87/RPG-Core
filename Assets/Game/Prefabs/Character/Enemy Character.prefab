@@ -375,6 +375,16 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5967476189642371548, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967660311657980178, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7108888458267738073, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3, type: 3}
     - {fileID: 5389221000710231149, guid: a49cffda2b9a4d24a9ed1d48b1cd26b3, type: 3}

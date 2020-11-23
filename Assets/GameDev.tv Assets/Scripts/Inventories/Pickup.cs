@@ -8,6 +8,8 @@ namespace GameDevTV.Inventories
     /// </summary>
     public class Pickup : MonoBehaviour
     {
+        [SerializeField] bool destroy = true;
+
         // STATE
         InventoryItem item;
         int number = 1;
@@ -53,7 +55,7 @@ namespace GameDevTV.Inventories
         public void PickupItem()
         {
             bool foundSlot = inventory.AddToFirstEmptySlot(item, number);
-            if (foundSlot)
+            if (foundSlot && destroy)
             {
                 Destroy(gameObject);
             }

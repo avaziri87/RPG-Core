@@ -118,7 +118,6 @@ namespace RPG.Combat
         {
             if (target == null) return;
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
-            if (gameObject.tag == "Player") Debug.Log("damage is: " + damage);
 
             if (currentWeapon.value != null)
             {
@@ -133,6 +132,7 @@ namespace RPG.Combat
             {
                 target.TakeDamage(gameObject, damage);
             }
+            target = null;
         }
         //Animation Event
         void Shoot()
@@ -172,7 +172,7 @@ namespace RPG.Combat
 
         public object CaptureState()
         {
-            return currentWeapon.value.name;
+            return currentWeaponConfig.name;
         }
 
         public void RestoreState(object state)
